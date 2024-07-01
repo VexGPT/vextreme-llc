@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VexGPT Status</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .status { padding: 10px; border: 1px solid #ccc; margin-bottom: 10px; }
+        .task { font-weight: bold; }
+        .progress { color: green; }
+        .details { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>VexGPT Status</h1>
+    <div class="status">
+        <div class="task">Current Task: {{ status.current_task }}</div>
+        <div class="progress">Progress: {{ status.progress }}</div>
+        <div class="details">Details:
+            <ul>
+                {% for detail in status.details %}
+                    <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

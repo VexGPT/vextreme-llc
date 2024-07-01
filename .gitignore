@@ -1,1 +1,12 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
 .env
+
+# Other files to ignore
+.DS_Store
