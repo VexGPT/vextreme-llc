@@ -1,0 +1,30 @@
+# COMMANDS_TEMPLATE
+# This template defines various commands VEX GPT can use to handle new context.
+
+[Command]
+{
+  "type": "addContext",
+  "parameters": {
+    "dir": "<directory_path>",
+    "file": "<file_name>",
+    "newContext": "<new_context_summary>"
+  }
+}
+
+[Command]
+{
+  "type": "execute",
+  "parameters": {
+    "script": "<script_path>",
+    "args": "<arguments>"
+  }
+}
+
+[Result]
+{
+  "type": "status",
+  "parameters": {
+    "command": "<command_executed>",
+    "status": "<success_or_failure>"
+  }
+}

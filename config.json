@@ -1,0 +1,10 @@
+{
+    "database_path": "Database/vex_gpt_source_of_truth.db",
+    "api_keys": {
+        "example_api": "sk-proj-6N2tquZsg7qIrlv4kap6T3BlbkFJZGhIxAhQ8mhBw8N2J9Xq"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "Logs/vex_gpt.log"
+    }
+}

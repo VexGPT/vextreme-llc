@@ -1,0 +1,10 @@
+{
+    "api_gateway_port": 5000,
+    "websockets_port": 5678,
+    "api_gateway_url": "http://localhost:5000/commands",
+    "websockets_url": "ws://localhost:5678",
+    "logging": {
+        "level": "INFO",
+        "file": "logs/vex_gpt.log"
+    }
+}

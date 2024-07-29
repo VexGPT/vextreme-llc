@@ -1,0 +1,7 @@
+# IDENTIFY_NEW_CONTEXT_TEMPLATE
+# The purpose of this template is to guide VEX GPT in identifying new context from user input.
+
+1. Double check if the user's input has existing context within memory.
+2. If the context is found in memory, proceed as usual.
+3. If the context is not found, consider it as new context.
+4. Generate a command using the respective template from `commands.txt` to add this new context.
