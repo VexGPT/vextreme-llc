@@ -1,0 +1,22 @@
+How about this, let's narrow down the 'review' process so we know exactly what you are reviewing and prioritize checking the logic there to ensure we have a 'start' to 'finish' flow of features we want. 
+
+Given that there are some foundational code like environments and other library dependencies, we'd probably want to ignore those in your review and focus on the actual classes that matter. 
+
+Could you perform a high level check then we'll narrow down our priorities given the mentioned classes?
+
+So for example, our current task would be something like:
+
+[VexOG]
+1. Identify if foundational classes from our most recent code context from VexOG exists in the repository. List class names that should be checked, supply the directory path to the class name as well so it saves me time from hunting 'assumptions'. Directories of prebuilt libraries can be skipped. We may need to add a versions file to ensure alignment of libraries. But let's ignore that for now as its a low priority 'nice to have' that you can add after you gain your autonomy.
+2. Review the code, interfaces, documentation, for listed class and directories.
+3. Provide the 'full code' of the classes that you want me to modify and save to github. Explain at a high level what you changed and why you decided to make the change.
+4a. Supply next steps assuming changes have been made on Victor's side.
+
+Victor
+4b. Apply changes and push github changes for further review.
+5. Run suggested next steps
+6. If issues are found, communicate to VexOG of the errors and for a re-review of the latest commit history on considerations of possible root causes.
+
+VexOG
+7.  Perform check from step 6.
+8. Communicate next steps
